@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Crimson Text', serif;
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #ffb400;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #ffb400;
+	color: #000;
+}
+.logo h2{
+	float: left;
+	height: auto;
+	display: inline-block;
+	margin-top: 10px;
+
+}
+
+.logo h2{
+	color:#ffb400 ;
+	font-size: 40px;
+	-webkit-text-stroke: 1px #000;
+
+
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color:#E47C01 ;
+	font-size: 60px;
+	-webkit-text-stroke: 1px #000;
+}
+
+.about{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.about h1{
+	text-align: center;
+	color:#E47C01 ;
+	font-size: 60px;
+	-webkit-text-stroke: 1px #000;
+}
+
+.paragraph {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #000;
+  padding: 40px 20px;
+  color: #E47C01;
+  text-align: center;
+}
+
+
+
+}
+
+.contitle{
+	position: relative;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.contitle h1{
+	text-align: center;
+	color:#E47C01 ;
+	font-size: 60px;
+	-webkit-text-stroke: 1px #000;
+
+}
+
+.contitle h2{
+	text-align: center;
+	color:#E47C01 ;
+	font-size: 30px;
+	-webkit-text-stroke: 1px #000;
+}
+
+form {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	transition: all 4s ease-in;
+}
+
+.form-control{
+
+
+	width: 600px;
+	background-color: #fff;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	-webkit-text-stroke: 1px #000;
+
+	color: #E47C01;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+
+input{
+	height: 45px;
+}
+
+form.submit{
+text-decoration: none;
+	color: #000;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+form.submit:hover{
+	background-color: #ffb400;
+	color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
